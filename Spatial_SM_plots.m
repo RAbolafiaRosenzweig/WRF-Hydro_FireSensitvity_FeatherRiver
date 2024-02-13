@@ -7,6 +7,7 @@ BSI = ncread('/Volumes/Pruina_External_Elements/ASO_Fire/Data/NoahMP/Inputs/geof
 %% load in shapefiles for the catchments:
 %load in study shapes:
 Catchments = shaperead('/Users/abolafia/ASO_Fire/Data/Shapefiles_From_Aubrey/analysis/Catchments_of_interest/HUC8_CA_Simplified.shp');
+Catchments = Catchments(1:3);
 shape_info_catchments = shapeinfo('/Users/abolafia/ASO_Fire/Data/Shapefiles_From_Aubrey/analysis/Catchments_of_interest/HUC8_CA_Simplified.shp');
 p1_catchments = shape_info_catchments.CoordinateReferenceSystem;
 ncatch = length(Catchments);
@@ -200,7 +201,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -305,7 +306,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -408,7 +409,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -510,7 +511,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -624,7 +625,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -738,7 +739,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -851,7 +852,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
@@ -965,7 +966,7 @@ end
 f=figure;
 f.Position = [-1854         -14         952         811];
 lonlim = [-122 -120];
-latlim = [39 40.7];
+latlim = [39.2 40.6];
 
 xlim(lonlim);
 ylim(latlim);
